@@ -1,0 +1,151 @@
+{
+	"Sections":
+	[
+		"InstructorInfo" : 
+		{
+			"required":true,
+			"Header":"Instructor Information",
+			"Instructor":
+			[
+				"name":"",
+				"email":"",
+				"phone":""
+			],
+			"Office":
+			[
+				"hours":"",
+				"room":"",
+				"contact":""
+			]
+			"TA": 
+			{
+				"required":false,
+				"list":[]
+			}
+		},
+		"ClassResources" : 
+		{
+			"required":true,
+			"Header":"Required Readings, Textbooks, and Tools",
+			"Resources":
+			[
+				"Books":[],
+				"Tools":[]
+			],
+			"Assignments":[],
+			"Project":"",
+			"Exams":[]
+		},
+		"Objectives" :
+		{
+			"required":true,
+			"Header":"Course Objectives",
+			"ClassDescription":
+			{
+				"Header":"Catalog Description",
+				"Desc":"",
+				"Header2":"Prerequisites",
+				"prereq":""
+			}
+			"obj":[]
+		},
+		"GradingPolicy" :
+		{
+			"required":true,
+			"Header":"Grading Policy",
+			"Weights":[],
+			"Scale":[]
+		},
+		"Absence" :
+		{
+			"required":true,
+			"Header":"Absence Policy",
+			"Religious":"ACD 304-04",
+			"Sanctioned":"ACD 304-02"
+		},
+		"ClassroomBehavior" :
+		{
+			"required":true,
+			"Header":"Classroom Behavior",
+			"Policy":""
+		},
+		"AcademicIntegrity" :
+		{
+			"required":true,
+			"Header":"Academic Integrity",
+			"Policy":""
+		},
+		"Threatening" :
+		{
+			"required":true,
+			"Header":"Threatening Behavior",
+			"Policy":""
+		},
+		"Trigger" :
+		{
+			"required":true,
+			"Header":"Sensitive Content",
+			"Policy":""
+		},
+		"Disability" :
+		{
+			"required":true,
+			"Header":"Disability Accommodation",
+			"Policy":""
+		},
+		"TitleIX" :
+		{
+			"required":true,
+			"Header":"Sexual Discrimination",
+			"Policy":""
+		},
+		"Copyright" :
+		{
+			"required":false,
+			"Header":"Copyright",
+			"Policy":""
+		},
+		"GradeAppeals" :
+		{
+			"required":false,
+			"Header":"Grade Appeals",
+			"Policy":""
+		},
+		"Schedule" :
+		{
+			"required":false,
+			"Header":"Course Schedule",
+			"Schedule":[]
+		},
+		"LatePolicy" :
+		{
+			"required":false,
+			"Header":"Late Policy",
+			"Policy":""
+		},
+		"SubjectToChange" :
+		{
+			"required":false,
+			"Header":"Syllabus Disclaimer",
+			"Policy":"Anything in this syllabus is subject to change with reasonable advanced noticed to students."
+		},
+		"LabPolicy" :
+		{
+			"required":true,
+			"Header":"Lab Policy",
+			"Policy":""
+		},
+		"Attendance" :
+		{
+			"required":true,
+			"Header":"Attendance Policy",
+			"Policy":""
+		},
+		"NoteTaking" :
+		{
+			"required":true,
+			"Header":"Prohibition of Commercial Notetaking Services",
+			"Policy":""
+		}
+	]
+}
