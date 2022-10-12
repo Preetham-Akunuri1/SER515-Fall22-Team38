@@ -4,15 +4,15 @@ ClassResources
 Objectives
 GradingPolicy
 Absence
+Trigger
 ClassroomBehavior
 AcademicIntegrity
 Threatening
-Trigger
 Disability
 TitleIX
 -----
 Optional:
-Attendance
+Attendence
 NoteTaking
 LabPolicy
 Copyright
