@@ -63,6 +63,24 @@
 			"Religious":"ACD 304-04",
 			"Sanctioned":"ACD 304-02"
 		},
+		"LabPolicy" :
+		{
+			"required":true,
+			"Header":"Lab Policy",
+			"Policy":""
+		},
+		"Attendance" :
+		{
+			"required":true,
+			"Header":"Attendance Policy",
+			"Policy":""
+		},
+		"NoteTaking" :
+		{
+			"required":true,
+			"Header":"Prohibition of Commercial Notetaking Services",
+			"Policy":""
+		},
 		"ClassroomBehavior" :
 		{
 			"required":true,
@@ -128,24 +146,6 @@
 			"required":false,
 			"Header":"Syllabus Disclaimer",
 			"Policy":"Anything in this syllabus is subject to change with reasonable advanced noticed to students."
-		},
-		"LabPolicy" :
-		{
-			"required":true,
-			"Header":"Lab Policy",
-			"Policy":""
-		},
-		"Attendance" :
-		{
-			"required":true,
-			"Header":"Attendance Policy",
-			"Policy":""
-		},
-		"NoteTaking" :
-		{
-			"required":true,
-			"Header":"Prohibition of Commercial Notetaking Services",
-			"Policy":""
 		}
 	]
 }
